@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0951D3BA172E384D00D14662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0951D3B9172E384D00D14662 /* Foundation.framework */; };
+		0951D3BF172E384D00D14662 /* GitTest4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0951D3BE172E384D00D14662 /* GitTest4.h */; };
+		0951D3C1172E384D00D14662 /* GitTest4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951D3C0172E384D00D14662 /* GitTest4.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0951D3B4172E384D00D14662 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				0951D3BF172E384D00D14662 /* GitTest4.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0951D3B6172E384D00D14662 /* libGitTest4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGitTest4.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0951D3B9172E384D00D14662 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0951D3BD172E384D00D14662 /* GitTest4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitTest4-Prefix.pch"; sourceTree = "<group>"; };
+		0951D3BE172E384D00D14662 /* GitTest4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTest4.h; sourceTree = "<group>"; };
+		0951D3C0172E384D00D14662 /* GitTest4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTest4.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0951D3B3172E384D00D14662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0951D3BA172E384D00D14662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0951D3AD172E384D00D14662 = {
+			isa = PBXGroup;
+			children = (
+				0951D3BB172E384D00D14662 /* GitTest4 */,
+				0951D3B8172E384D00D14662 /* Frameworks */,
+				0951D3B7172E384D00D14662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0951D3B7172E384D00D14662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0951D3B6172E384D00D14662 /* libGitTest4.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0951D3B8172E384D00D14662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0951D3B9172E384D00D14662 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0951D3BB172E384D00D14662 /* GitTest4 */ = {
+			isa = PBXGroup;
+			children = (
+				0951D3BE172E384D00D14662 /* GitTest4.h */,
+				0951D3C0172E384D00D14662 /* GitTest4.m */,
+				0951D3BC172E384D00D14662 /* Supporting Files */,
+			);
+			path = GitTest4;
+			sourceTree = "<group>";
+		};
+		0951D3BC172E384D00D14662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0951D3BD172E384D00D14662 /* GitTest4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0951D3B5172E384D00D14662 /* GitTest4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0951D3C4172E384D00D14662 /* Build configuration list for PBXNativeTarget "GitTest4" */;
+			buildPhases = (
+				0951D3B2172E384D00D14662 /* Sources */,
+				0951D3B3172E384D00D14662 /* Frameworks */,
+				0951D3B4172E384D00D14662 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitTest4;
+			productName = GitTest4;
+			productReference = 0951D3B6172E384D00D14662 /* libGitTest4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0951D3AE172E384D00D14662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hervé PEROTEAU";
+			};
+			buildConfigurationList = 0951D3B1172E384D00D14662 /* Build configuration list for PBXProject "GitTest4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0951D3AD172E384D00D14662;
+			productRefGroup = 0951D3B7172E384D00D14662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0951D3B5172E384D00D14662 /* GitTest4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0951D3B2172E384D00D14662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0951D3C1172E384D00D14662 /* GitTest4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0951D3C2172E384D00D14662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0951D3C3172E384D00D14662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0951D3C5172E384D00D14662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GitTest4.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitTest4/GitTest4-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0951D3C6172E384D00D14662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GitTest4.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitTest4/GitTest4-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0951D3B1172E384D00D14662 /* Build configuration list for PBXProject "GitTest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0951D3C2172E384D00D14662 /* Debug */,
+				0951D3C3172E384D00D14662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0951D3C4172E384D00D14662 /* Build configuration list for PBXNativeTarget "GitTest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0951D3C5172E384D00D14662 /* Debug */,
+				0951D3C6172E384D00D14662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0951D3AE172E384D00D14662 /* Project object */;
+}
