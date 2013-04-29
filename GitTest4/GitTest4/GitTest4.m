@@ -10,4 +10,8 @@
 
 @implementation GitTest4
 
+-(void) test1 {
+    NSLog(@"test1");
+}
+
 @end
